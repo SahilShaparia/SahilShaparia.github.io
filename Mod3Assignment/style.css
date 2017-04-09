@@ -1,0 +1,89 @@
+abody{
+	background-image: url(image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 200%
+}
+
+.content{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+.navbar-brand{
+	font-size: 30px;
+}
+
+h1{
+	text-align: center;
+	font-size:  30px;
+	padding: 50px;
+	text-decoration: underline; ;
+	color: cyan;
+}
+
+.box{
+	background-color: purple;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 1.5%;
+    color: yellow;
+    font-size: 20px
+}
+
+.title{
+	width: 100px;
+    position: relative;
+    top: -31px;
+    right: -31px;
+    border: 1px solid black;
+    font-size: 125%;
+    text-align: center;
+
+	
+}
+
+#p1{
+	background-color: blue;
+}
+
+#p2{
+	background-color: blue;
+}
+
+#p3{
+	background-color: blue;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		width: 30%;
+		float: left;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{
+		float: left;
+		width:47%;
+	}
+	.col-md-12{
+		clear: both;
+	}
+	
+}
+
+#nav-list {
+  margin-top: 10px;
+  font-size: 20px
+}
+#nav-list a {
+  color: purple;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
