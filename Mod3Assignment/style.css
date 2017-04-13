@@ -1,89 +1,72 @@
-abody{
+body{
 	background-image: url(image.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 200%
 }
 
-.content{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-
-}
-
-.navbar-brand{
-	font-size: 30px;
-}
-
-h1{
-	text-align: center;
-	font-size:  30px;
-	padding: 50px;
-	text-decoration: underline; ;
-	color: cyan;
-}
-
-.box{
+#dosa, #wine, #pizza{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	position: relative;
 	background-color: purple;
-    border: 1px solid black;
-    padding: 30px;
-    margin: 1.5%;
-    color: yellow;
-    font-size: 20px
+	text-align: center;
+}
+.text-center{
+	color: cyan
+}
+ 
+ .text{
+ 	color: white;
+ 	padding-top: 10px;
 }
 
-.title{
-	width: 100px;
-    position: relative;
-    top: -31px;
-    right: -31px;
-    border: 1px solid black;
-    font-size: 125%;
-    text-align: center;
-
-	
+#header-nav{
+	background-color: #b2b2b2;
+	border-radius: 0;
+	border: 0;
 }
 
-#p1{
-	background-color: blue;
+#brand-name{
+	color: #000;
 }
 
-#p2{
-	background-color: blue;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
 }
 
-#p3{
-	background-color: blue;
+.navbar-header button.navbar-toggle:hover{
+	border: 1px solid #fff;
+	background-color: transparent;
 }
 
-@media (min-width: 992px){
-	.col-lg-4{
-		width: 30%;
-		float: left;
-	}
-
+p{ color: yellow;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6{
-		float: left;
-		width:47%;
-	}
-	.col-md-12{
-		clear: both;
-	}
-	
+#collapsable-nav{
+	background-color: #fff;
+	border: 1px solid black;
 }
 
-#nav-list {
-  margin-top: 10px;
-  font-size: 20px
+hr{
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid;
 }
-#nav-list a {
-  color: purple;
-  text-align: center;
+
+@media (min-width: 768px) {
+
+	#collapsable-nav{
+	background-color: #b2b2b2;
+	border: none;
 }
-#nav-list a:hover {
-  background: #E7E7E7;
-}
+
+ }
+
+
+
 
